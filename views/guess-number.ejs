@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>数字当てゲーム</title>
+</head>
+<body>
+    <h1>数字当てゲーム</h1>
+    <p>1から10の間で数字を予想してください。</p>
+
+    <form method="POST" action="/guess-number">
+        <input type="number" name="number" required>
+        <button type="submit">送信</button>
+    </form>
+
+    <%if(result){%>
+        <p><%= result %></p>
+    <%}%>
+</body>
+</html>
