@@ -12,7 +12,7 @@ views/luck.ejs | おみくじのテンプレートファイル
 views/attimuitehoi.ejs | あっち向いてホイのテンプレートファイル
 views/guess-number.ejs | 数字当てゲームのテンプレートファイル
 
-##　じゃんけんの起動手順
+## じゃんけんの起動手順
 1. app5.js を起動する(```node app5.js```で起動)
 1. Webブラウザでlocalhost:8080/public/janken.htmlにアクセスする
 1. 自分の手を入力する
@@ -22,7 +22,7 @@ views/guess-number.ejs | 数字当てゲームのテンプレートファイル
 
 
 
-####　フローチャート
+#### フローチャート
 ```mermaid
 flowchart TD;
 
@@ -50,7 +50,7 @@ loose --> end1
 #### 機能の説明
 画像を表示する機能
 
-####　フローチャート
+#### フローチャート
 ```mermaid
 flowchart TD;
 開始 -->　画像を表示　--> 終了;
@@ -62,7 +62,7 @@ flowchart TD;
 #### 機能の説明
 おみくじができる機能
 
-####　フローチャート
+#### フローチャート
 ```mermaid
 flowchart TD;
 開始 -->　おみくじの結果を表示　--> 終了;
@@ -76,7 +76,7 @@ flowchart TD;
 #### 機能の説明
 コンピュータとあっち向いてほいができる機能である．
 
-####　フローチャート
+#### フローチャート
 ```mermaid
 flowchart TD;
 
@@ -101,7 +101,7 @@ loose --> end1
 #### 機能の説明
 コンピュータと数字当てゲームができる機能である
 
-####　フローチャート
+#### フローチャート
 ```mermaid
 flowchart TD;
 
